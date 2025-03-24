@@ -1,0 +1,146 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9d3;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+        color: #0a0a0a;
+    margin-bottom: 10px;
+}
+
+/* Encabezado */
+#acerca-de-mi{
+    text-align: center;
+    padding: 20px;
+    background-color: #79cde2;
+    margin-bottom: 20px;
+}
+
+#acerca-de-mi h1 {
+    font-size: 2rem;
+}
+
+#acerca-de-mi img {
+    max-width: 250px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Enlaces */
+#links {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f7f8;
+    margin-bottom: 50px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #2980b9;
+    margin: 0 50px;
+    font-weight: bold;
+}
+
+#links a:hover {
+    text-decoration: underline;
+    color: #34495e;
+}
+
+/* Secciones de listas */
+.hobbies,
+.Tareas {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies ul,
+.Tareas ol {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.hobbies li,
+.Tareas li {
+    margin-bottom: 5px;
+}
+
+/* Tabla */
+.cronograma {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cronograma table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.cronograma th,
+.cronograma td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.cronograma th {
+    background-color: #3498db;
+    color: white;
+}
+
+.cronograma td {
+    background-color: #f4f4f4;
+}
+
+/* Formulario */
+.formulario-contacto {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-contacto input,
+.formulario-contacto button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario-contacto button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+    background-color: #2ecc71;
+}
+/* Línea inferior */
+.footer-bottom {
+    background-color: #333;
+    color: #ecf0f1;
+    margin-top: 15px;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: center;
+}
